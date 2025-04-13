@@ -1,121 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
-  <title>Aaromal S Ram | Mechanical Engineering Student at IIT(ISM) Dhanbad</title>
-  <meta name="description" content="Portfolio of Aaromal S Ram, a Mechanical Engineering student at IIT(ISM) Dhanbad." />
-  <meta name="keywords" content="Aaromal, Mechanical Engineering, IIT Dhanbad, FSAE, EV, Formula Bharat, MREX01" />
-  <link rel="stylesheet" href="index.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aaromal S Ram | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #222222;
+      line-height: 1.6;
+    }
+
+    header, section, footer {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    header {
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+
+    h1, h2, h3 {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .section {
+      border-bottom: 1px solid #e0e0e0;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  </style>
 </head>
 
 <body>
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <span>Aaromal S Ram</span>
-        </h1>
-        <p>Mechanical Engineering Student at IIT(ISM) Dhanbad</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
-      </div>
-    </div>
+
+  <header>
+    <h1>Aaromal S Ram</h1>
+    <p>Mechanical Engineering Student at IIT(ISM) Dhanbad</p>
   </header>
 
-  <main role="main">
-    <section class="work" id="work">
-      <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
-          <div class="work__box">
-            <div class="work__text">
-              <h3>MREX01</h3>
-              <p>Formula Bharat 2025 - Electric Vehicle Project</p>
-              <ul class="work__list">
-                <li>EV</li>
-                <li>FSAE</li>
-                <li>Vehicle Dynamics</li>
-              </ul>
-              <div class="work__links">
-                <a href="https://github.com/aaromal03" target="_blank" class="link__text">
-                  View GitHub <span>&rarr;</span>
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="MREX01" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <p>
-              I'm Aaromal S Ram, a Mechanical Engineering student from IIT(ISM) Dhanbad, passionate about Electric Vehicles and motorsport design. I’m currently working on MREX01, a Formula Student Electric Vehicle targeting Formula Bharat 2025.
-            </p>
-            <a href="https://drive.google.com/file/d/1XScylWoYC8Vx8NJtoxg8XUqpjKLh-2BA/view?usp=sharing" class="btn" target="_blank">My Resume</a>
-          </div>
-          <div class="about__photo-container">
-            <img class="about__photo" src="./images/profile.jpg" alt="Aaromal S Ram" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          Want to collaborate, ask questions, or just say hi? Feel free to drop me an email!
-        </p>
-        <a href="mailto:aaromal03@gmail.com" class="btn">aaromal03@gmail.com</a>
-      </div>
-    </div>
+  <section class="section" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a Mechanical Engineering undergraduate student from IIT(ISM) Dhanbad, with a keen interest in electric vehicles, automotive design, and engineering simulation. I actively contribute to Formula Student projects and am passionate about hands-on development and optimization.
+    </p>
   </section>
 
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://github.com/aaromal03" title="GitHub">
-            <img src="./images/github.svg" class="footer__social-image" alt="GitHub">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/aaromal-s03/" title="LinkedIn">
-            <img src="./images/linkedin.svg" class="footer__social-image" alt="LinkedIn">
-          </a>
-        </li>
-      </ul>
-      <p>
-        &copy; 2025 - Built with 💻 by Aaromal S Ram.
-      </p>
-    </div>
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+    <h3>MREX01</h3>
+    <p>
+      A student electric racecar developed for Formula Bharat 2025.
+      Focused on vehicle packaging, dynamics, and system integration.
+    </p>
+    <p><strong>Technology:</strong> Electric Vehicle (EV)</p>
+  </section>
+
+  <section class="section" id="resume">
+    <h2>Resume</h2>
+    <p>
+      You can view or download my resume using the button below.
+    </p>
+    <a class="button" href="https://drive.google.com/file/d/1XScylWoYC8Vx8NJtoxg8XUqpjKLh-2BA/view?usp=sharing" target="_blank">View Resume</a>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:aaromal03@gmail.com">aaromal03@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/aaromal-s03/" target="_blank">aaromal-s03</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Aaromal S Ram. All rights reserved.</p>
   </footer>
 
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
-  </a>
-
-  <script src="./index.js"></script>
 </body>
-
 </html>
